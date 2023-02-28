@@ -1,0 +1,20 @@
+name: slack_spam_notification_service
+version: 0.1.0
+
+authors:
+  - Seth Tucker <crimsonknightstudios@gmail.com>
+
+targets:
+  slack_spam_notification_service:
+    main: src/slack_spam_notification_service.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  mosquito:
+    github: mosquito-cr/mosquito
+    version: "~> 1.0.0.rc3"
+
+crystal: 1.7.2
+
+license: MIT
